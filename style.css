@@ -1,0 +1,77 @@
+/* Second Section */
+
+
+
+.flex-even {
+    flex: 1;
+  }
+
+.secondSection{
+    background-image: url("images/second section/everyday_banner-1.jpg");
+    display: block;
+    position: relative;
+    /*min-height: 700px;*/
+}
+
+.secondSection button{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.secondSection h1{
+    font-size: 25px;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.secondSection h4{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Open Sans',sans-serif;
+    color: #fff;
+    font-weight: 500;
+}
+
+.secondSection a{
+    color: black;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration-style: solid;
+    text-size-adjust: 100%;
+    text-transform: uppercase;
+}
+
+.secondSection a:hover {
+    color: #36879c;
+}
+
+@media screen and (max-width:770px) {
+    .secondSection {
+      background-image: none;
+      background: linear-gradient(to bottom,#9a8e9a 0%,#bd908a 100%);
+    }
+  }
+
+/* Third Section */
+
+.thirdSection{
+    background: linear-gradient(to bottom,#bd908a 0%,#9a8e9a 100%);
+    font-family: Arial;
+}
+.thirdSection h3{
+    font-size: 25px;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 300;
+}
+.thirdSection p{
+    font-size: 13px;
+}
+.thirdSection h6{
+    font-size: 12px;
+}
